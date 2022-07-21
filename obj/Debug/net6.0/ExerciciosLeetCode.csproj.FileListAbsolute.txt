@@ -1,0 +1,15 @@
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\bin\Debug\net6.0\ExerciciosLeetCode.exe
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\bin\Debug\net6.0\ExerciciosLeetCode.deps.json
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\bin\Debug\net6.0\ExerciciosLeetCode.runtimeconfig.json
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\bin\Debug\net6.0\ExerciciosLeetCode.dll
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\bin\Debug\net6.0\ExerciciosLeetCode.pdb
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\ExerciciosLeetCode.csproj.AssemblyReference.cache
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\ExerciciosLeetCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\ExerciciosLeetCode.AssemblyInfoInputs.cache
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\ExerciciosLeetCode.AssemblyInfo.cs
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\ExerciciosLeetCode.csproj.CoreCompileInputs.cache
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\ExerciciosLeetCode.dll
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\refint\ExerciciosLeetCode.dll
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\ExerciciosLeetCode.pdb
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\ExerciciosLeetCode.genruntimeconfig.cache
+C:\Users\Diogo Santos\source\repos\ExerciciosLeetCode\obj\Debug\net6.0\ref\ExerciciosLeetCode.dll
