@@ -6,10 +6,10 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            int[] teste = { 1,2,3,4,5 };
+            int[] teste = { 1};
             ListNode lista = PalindromeLinkedList_234.MontarListNode(teste);
 
-            Console.WriteLine(MiddleOfTheLinkedList_876.Solucao(lista));
+            Console.WriteLine(RemoveNthNodeFromEndOfList_19.Solucao(lista, 1));
         }
     }
 }
