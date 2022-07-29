@@ -10,7 +10,7 @@ namespace ExerciciosLeetCode.Exercicios
     {
         public static ListNode MontarListNode(int[] lista)
         {
-            var head = new ListNode(1);
+            var head = new ListNode(lista[0]);
             var atual = head;
 
             for (int i = 1; i < lista.Length; i++)
