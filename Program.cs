@@ -6,10 +6,17 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            int[] teste = { 1};
-            ListNode lista = PalindromeLinkedList_234.MontarListNode(teste);
+            int[][] teste = new int[][] 
+            { new int[] { 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 }, 
+                new int[] { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 },
+            new int[] { 0,1,1,0,1,0,0,0,0,0,0,0,0 },
+            new int[] { 0,1,0,0,1,1,0,0,1,0,1,0,0},
+            new int[] { 0,1,0,0,1,1,0,0,1,1,1,0,0 },
+            new int[] { 0,0,0,0,0,0,0,0,0,0,1,0,0 },
+            new int[] { 0,0,0,0,0,0,0,1,1,1,0,0,0 },
+            new int[] { 0,0,0,0,0,0,0,1,1,0,0,0,0 },};
 
-            Console.WriteLine(RemoveNthNodeFromEndOfList_19.Solucao(lista, 1));
+            Console.WriteLine(MaxAreaOfIsland_695.Solucao(teste));
         }
     }
 }
