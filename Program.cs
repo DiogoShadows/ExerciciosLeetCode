@@ -1,4 +1,5 @@
 ﻿using ExerciciosLeetCode.Exercicios;
+using static ExerciciosLeetCode.Exercicios.MergeTwoBinaryTrees_617;
 
 namespace ExerciciosLeetCode
 {
@@ -6,17 +7,8 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            int[][] teste = new int[][] 
-            { new int[] { 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 }, 
-                new int[] { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 },
-            new int[] { 0,1,1,0,1,0,0,0,0,0,0,0,0 },
-            new int[] { 0,1,0,0,1,1,0,0,1,0,1,0,0},
-            new int[] { 0,1,0,0,1,1,0,0,1,1,1,0,0 },
-            new int[] { 0,0,0,0,0,0,0,0,0,0,1,0,0 },
-            new int[] { 0,0,0,0,0,0,0,1,1,1,0,0,0 },
-            new int[] { 0,0,0,0,0,0,0,1,1,0,0,0,0 },};
 
-            Console.WriteLine(MaxAreaOfIsland_695.Solucao(teste));
+            Console.WriteLine(MergeTwoBinaryTrees_617.Solucao());
         }
     }
 }
