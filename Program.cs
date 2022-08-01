@@ -8,7 +8,7 @@ namespace ExerciciosLeetCode
         static void Main(string[] args)
         {
 
-            Console.WriteLine(MergeTwoBinaryTrees_617.Solucao());
+            Console.WriteLine(RemoveAllAdjacentDuplicatesInString_1047.Solucao("azxxzy"));
         }
     }
 }
