@@ -1,4 +1,5 @@
 ﻿using ExerciciosLeetCode.Exercicios;
+using static ExerciciosLeetCode.Exercicios.MergeTwoBinaryTrees_617;
 
 namespace ExerciciosLeetCode
 {
@@ -6,10 +7,8 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            int[] teste = { 1};
-            ListNode lista = PalindromeLinkedList_234.MontarListNode(teste);
 
-            Console.WriteLine(RemoveNthNodeFromEndOfList_19.Solucao(lista, 1));
+            Console.WriteLine(MergeTwoBinaryTrees_617.Solucao());
         }
     }
 }
