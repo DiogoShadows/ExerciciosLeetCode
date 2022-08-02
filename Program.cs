@@ -7,8 +7,9 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine(RemoveAllAdjacentDuplicatesInString_1047.Solucao("azxxzy"));
+            int[][] entrada = new int[][] { new int[] { 1, 5, 9 }, new int[] { 10, 11, 13 }, new int[] { 12, 13, 15 }, };
+            int[][] entrada2 = new int[][] { new int[] { -5 } };
+            Console.WriteLine(KthSmallestElementinASortedMatrix_378.Solucao(entrada, 8));
         }
     }
 }
