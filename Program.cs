@@ -7,9 +7,10 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            int[][] entrada = new int[][] { new int[] { 1, 5, 9 }, new int[] { 10, 11, 13 }, new int[] { 12, 13, 15 }, };
-            int[][] entrada2 = new int[][] { new int[] { -5 } };
-            Console.WriteLine(KthSmallestElementinASortedMatrix_378.Solucao(entrada, 8));
+            MyCalendarI_729 obj = new MyCalendarI_729();
+            bool param_2 = obj.Book(10, 20);
+            bool param_3 = obj.Book(15, 25);
+            bool param_4 = obj.Book(20, 30);
         }
     }
 }
