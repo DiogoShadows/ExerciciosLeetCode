@@ -7,10 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            MyCalendarI_729 obj = new MyCalendarI_729();
-            bool param_2 = obj.Book(10, 20);
-            bool param_3 = obj.Book(15, 25);
-            bool param_4 = obj.Book(20, 30);
+            Console.WriteLine(MirrorReflection_858.Solucao(3, 2));
         }
     }
 }
