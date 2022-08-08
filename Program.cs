@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(MirrorReflection_858.Solucao(3, 2));
+            Console.WriteLine(CombinationSumIV_377.Solucao(new int[] {1,2,3}, 4));
         }
     }
 }
