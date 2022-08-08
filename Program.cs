@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CombinationSumIV_377.Solucao(new int[] {1,2,3}, 4));
+            Console.WriteLine(LongestIncreasingSubsequence_300.Solucao(new int[] { 10, 9, 2, 5, 3, 7, 101, 18 }));
         }
     }
 }
