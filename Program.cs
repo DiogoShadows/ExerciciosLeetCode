@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(LongestIncreasingSubsequence_300.Solucao(new int[] { 10, 9, 2, 5, 3, 7, 101, 18 }));
+            Console.WriteLine(BinaryTreesWithFactors_823.Solucao(new int[] { 2, 4, 5, 10 }));
         }
     }
 }
