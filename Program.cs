@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(BinaryTreesWithFactors_823.Solucao(new int[] { 2, 4, 5, 10 }));
+            Console.WriteLine(ConvertSortedArraytoBinarySearchTree_108.Solucao(new int[] { -10, -3, 0, 5, 9 }));
         }
     }
 }
