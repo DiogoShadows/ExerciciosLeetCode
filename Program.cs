@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(ConvertSortedArraytoBinarySearchTree_108.Solucao(new int[] { -10, -3, 0, 5, 9 }));
+            Console.WriteLine(PartitionLabels_763.Solucao("ababcbacadefegdehijhklij"));
         }
     }
 }
