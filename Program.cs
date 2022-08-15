@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(PartitionLabels_763.Solucao("ababcbacadefegdehijhklij"));
+            Console.WriteLine(FindFirstPalindromicStringIntheArray_2108.Solucao(new string[] { "abc", "car", "ada", "racecar", "cool"}));
         }
     }
 }
