@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(WalkingRobotSimulation_874.Solucao(new int[] { 4, -1, 4, -2, 4 }, new int[][] { new int[] { 2, 4 } }));
+            Console.WriteLine(MaximumBinaryTree_654.Solucao(new int[] { 3, 2, 1, 6, 0, 5 }));
         }
     }
 }
