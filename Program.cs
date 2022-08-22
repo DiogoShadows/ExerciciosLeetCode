@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(MaximumBinaryTree_654.Solucao(new int[] { 3, 2, 1, 6, 0, 5 }));
+            Console.WriteLine(SmallestRangeII_910.Solucao(new int[] { 10, 7, 1 }, 3));
         }
     }
 }
