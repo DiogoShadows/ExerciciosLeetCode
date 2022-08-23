@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(SmallestRangeII_910.Solucao(new int[] { 10, 7, 1 }, 3));
+            Console.WriteLine(FindtheHighestAltitude_1732.Solucao(new int[] { -5, 1, 5, 0, -7 }));
         }
     }
 }
