@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(FindtheHighestAltitude_1732.Solucao(new int[] { -5, 1, 5, 0, -7 }));
+            Console.WriteLine(PowerofThree_326.Solucao(2147483647));
         }
     }
 }
