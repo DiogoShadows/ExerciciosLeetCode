@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(PowerofThree_326.Solucao(2147483647));
+            Console.WriteLine(Thek_thLexicographicalStringofAllHappyStringsofLengthn_1415.Solucao(3, 9));
         }
     }
 }
