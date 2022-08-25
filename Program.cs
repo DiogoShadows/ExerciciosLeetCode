@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Thek_thLexicographicalStringofAllHappyStringsofLengthn_1415.Solucao(3, 9));
+            Console.WriteLine(CheckifNumberHasEqualDigitCountandDigitValue_2283.Solucao("1210"));
         }
     }
 }
