@@ -7,7 +7,10 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CheckifNumberHasEqualDigitCountandDigitValue_2283.Solucao("1210"));
+            char[][] c = new char[][] { new char[] { '1', '0', '1', '1', '0', '1', '1' } };
+            char[][] b = new char[][] { new char[] { '1', '1', '0', '0', '0' }, new char[] { '1', '1', '0', '0', '0' }, new char[] { '0', '0', '1', '0', '0' }, new char[] { '0', '0', '0', '1', '1' } };
+            char[][] a = new char[][] { new char[] { '1', '1', '1', '1', '0' }, new char[] { '1', '1', '0', '1', '0' }, new char[] { '1', '1', '0', '0', '0' }, new char[] { '0', '0', '0', '0', '0' } };
+            Console.WriteLine(NumberofIslands_200.Solucao(c));
         }
     }
 }
