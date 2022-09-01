@@ -10,7 +10,7 @@ namespace ExerciciosLeetCode
             char[][] c = new char[][] { new char[] { '1', '0', '1', '1', '0', '1', '1' } };
             char[][] b = new char[][] { new char[] { '1', '1', '0', '0', '0' }, new char[] { '1', '1', '0', '0', '0' }, new char[] { '0', '0', '1', '0', '0' }, new char[] { '0', '0', '0', '1', '1' } };
             char[][] a = new char[][] { new char[] { '1', '1', '1', '1', '0' }, new char[] { '1', '1', '0', '1', '0' }, new char[] { '1', '1', '0', '0', '0' }, new char[] { '0', '0', '0', '0', '0' } };
-            Console.WriteLine(NumberofIslands_200.Solucao(c));
+            Console.WriteLine(UniqueNumberofOccurrences_1207.Solucao(new int[] { 1, 2 }));
         }
     }
 }
