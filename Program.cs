@@ -7,10 +7,13 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            char[][] c = new char[][] { new char[] { '1', '0', '1', '1', '0', '1', '1' } };
-            char[][] b = new char[][] { new char[] { '1', '1', '0', '0', '0' }, new char[] { '1', '1', '0', '0', '0' }, new char[] { '0', '0', '1', '0', '0' }, new char[] { '0', '0', '0', '1', '1' } };
-            char[][] a = new char[][] { new char[] { '1', '1', '1', '1', '0' }, new char[] { '1', '1', '0', '1', '0' }, new char[] { '1', '1', '0', '0', '0' }, new char[] { '0', '0', '0', '0', '0' } };
-            Console.WriteLine(UniqueNumberofOccurrences_1207.Solucao(new int[] { 1, 2 }));
+            TreeNode root = new TreeNode(3);
+            root.left = new TreeNode(9);
+            root.right = new TreeNode(20);
+            root.right.right = new TreeNode(7);
+            root.right.left = new TreeNode(15);
+
+            Console.WriteLine(AverageofLevelsinBinaryTree_637.Solucao(root));
         }
     }
 }
