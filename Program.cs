@@ -7,7 +7,13 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            MergeSortedArray_88.Solucao(new int[] { 1, 2, 3, 0, 0, 0 }, 3, new int[] {2, 5, 6}, 3);
+            TreeNode root = new TreeNode(3);
+            root.left = new TreeNode(9);
+            root.right = new TreeNode(20);
+            root.right.right = new TreeNode(7);
+            root.right.left = new TreeNode(15);
+
+            Console.WriteLine(MaximumNumberofWordsFoundinSentences_2114.Solucao(new string[] { "alice and bob love leetcode", "i think so too", "this is great thanks very much"}));
         }
     }
 }
