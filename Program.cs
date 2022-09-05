@@ -7,13 +7,18 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode root = new TreeNode(3);
-            root.left = new TreeNode(9);
-            root.right = new TreeNode(20);
-            root.right.right = new TreeNode(7);
-            root.right.left = new TreeNode(15);
+            Node root = new Node(1);
+            Node um = new Node(3);
+            Node dois = new Node(2);
+            Node tres = new Node(4);
+            Node quatro = new Node(5);
+            Node cinco = new Node(6);
+            List<Node> lista = new List<Node> { um, dois, tres };
+            root.children = lista;
+            lista = new List<Node> { quatro, cinco };
+            um.children = lista;
 
-            Console.WriteLine(AverageofLevelsinBinaryTree_637.Solucao(root));
+            Console.WriteLine(N_aryTreeLevelOrderTraversal_429.LevelOrder(root));
         }
     }
 }
