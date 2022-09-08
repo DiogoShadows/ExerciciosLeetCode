@@ -8,14 +8,10 @@ namespace ExerciciosLeetCode
         static void Main(string[] args)
         {
             TreeNode root = new TreeNode(1);
-            root.right = new TreeNode(1);
-            root.left = new TreeNode(0);
-            root.left.left = new TreeNode(0);
-            root.left.right = new TreeNode(0);
-            root.right.right = new TreeNode(1);
-            root.right.left = new TreeNode(0);
+            root.right = new TreeNode(2);
+            root.right.left = new TreeNode(3);
 
-            Console.WriteLine(BinaryTreePruning_814.Solucao(root));
+            Console.WriteLine(BinaryTreeInorderTraversal_94.Solucao(root));
         }
     }
 }
