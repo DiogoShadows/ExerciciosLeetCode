@@ -11,7 +11,7 @@ namespace ExerciciosLeetCode
             root.right = new TreeNode(2);
             root.right.left = new TreeNode(3);
 
-            Console.WriteLine(BinaryTreeInorderTraversal_94.Solucao(root));
+            Console.WriteLine(FindTargetIndicesAfterSortingArray_2089.Solucao(new int[] { 1, 2, 5, 2, 3 }, 2));
         }
     }
 }
