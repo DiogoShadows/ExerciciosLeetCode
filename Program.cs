@@ -11,7 +11,7 @@ namespace ExerciciosLeetCode
             root.right = new TreeNode(2);
             root.right.left = new TreeNode(3);
 
-            Console.WriteLine(CheckiftheSentenceIsPangram_1832.Solucao(""));
+            Console.WriteLine(FindOriginalArrayFromDoubledArray_2007.Solucao(new int[] { 0 }));
         }
     }
 }
