@@ -10,7 +10,6 @@ namespace ExerciciosLeetCode.Exercicios
     {
         public static bool Solution(string s)
         {
-            char[] vows = new char[] { 'a', 'e', 'i', 'o', 'u' };
             Dictionary<char, char> dicVows = new Dictionary<char, char>
             {
                 {'a','a'  },
