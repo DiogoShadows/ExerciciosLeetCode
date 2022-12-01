@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(PerfectSquares_279.Solucao(12));
+            Console.WriteLine(DetermineifStringHalvesAreAlike_1704.Solution("book"));
         }
     }
 }
