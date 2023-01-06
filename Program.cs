@@ -7,7 +7,7 @@ namespace ExerciciosLeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DetermineifStringHalvesAreAlike_1704.Solution("book"));
+            Console.WriteLine(MaximumIceCreamBars_1833.Solution( new int[] { 1, 6, 3, 1, 2, 5 }, 20));
         }
     }
 }
